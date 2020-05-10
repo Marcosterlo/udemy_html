@@ -3,8 +3,16 @@
         <title>Pagina per input</title>
     </head>
     <body>
-        <form> <!--Gli input vengono ricevuti dentro ai form-->
-            <input type="">
+        <form action="" method=""> <!--Gli input vengono ricevuti dentro ai form, l'action manda i dati inputtati su un altro file generalmente php
+        come un array, e il method indica come mandarli (tipo POST)-->
+            <!--il type-default è text-->
+            <label  for="name">Nome<!--il label non so cosa faccia-->
+            <input name="name" type="text" placeholder="Insert name"></label> 
+            <br><br> <label for="name">Email<input name="email" type="email" placeholder="Insert email"></label> 
+            <br><br> <label for="name">Password<input name="password" type="password" placeholder="Insert password"></label> 
+            <br><br><input name="image" type="file"> <!--si può uploaddare un file-->
+            <br><br><input type="submit">
+            <!--la proprietà name serve per processare i dati inputtati con php, javascript etc...-->
         </form>
     </body>
 </html>

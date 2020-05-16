@@ -1,9 +1,27 @@
+/* I commenti sono solo così credo */
 p {
     color: red;
     font-size: 24px;
 }
-
-h1 {
+/* Si applicano le proprietà a più elementi*/
+h1,h2,h3 {
     color: blue;
     font-size: 100px;
+}
+/* Così la proprietà si applica solo ai p dentro ai div*/
+div p {
+    color: blue;
+}
+
+body {
+    background: black;
+    color: white;
+}
+/* Si usa il "#" per le proprietà di id*/
+#par1 {
+    color: yellow;
+}
+/* Si usa il "." per le proprietà di class*/
+.par1 {
+    color: darkolivegreen;
 }

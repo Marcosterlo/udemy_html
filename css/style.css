@@ -13,6 +13,15 @@ div p {
     color: blue;
 }
 
+div {
+    border: 1px solid white;
+    background: green;
+}
+
+div ul {
+    list-style-type: upper-roman;
+}
+
 body {
     background: black;
     color: white;
